@@ -60,6 +60,8 @@ To navigate to a bookmark, click the drop down list next to the bookmark button 
 
 - Changed start page to reflect ThreeTeeth moving to zetacentauri.com.
 
+*NOTE: It appears that the changes for 1.31 did not make it into this repository. They may be lost, or I may have them somewhere.*
+
 ### Changes in Version 1.3 (2013-01-09):
 
 - Added support for adding and navigating to bookmarks.
