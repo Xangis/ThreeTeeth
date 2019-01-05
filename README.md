@@ -16,6 +16,8 @@ https://github.com/Xangis/ThreeTeeth/blob/master/Installer/ThreeTeeth1.31Setup.e
 
 ThreeTeeth requires the [Microsoft .NET Framework 3.5 or Newer](http://www.microsoft.com/downloads/en/details.aspx?familyid=333325fd-ae52-4e35-b531-508d977d32a6&displaylang=en) and runs on Windows XP or newer.
 
+If you would like a more modern browser, try [WbBrowse](https://github.com/xangis/wbbrowse), also by me.
+
 # Usage
 
 ![Main Navigation Toolbar for the ThreeTeeth Browser](https://github.com/Xangis/ThreeTeeth/blob/master/Images/ThreeTeeth_1.3_Screenshot7.png)
