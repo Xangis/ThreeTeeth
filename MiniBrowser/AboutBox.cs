@@ -18,14 +18,9 @@ namespace ThreeTeeth
             mainWindow = main;
         }
 
-        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
-        {
-            mainWindow.Browser.Navigate("http://threeteeth.com");
-        }
-
         private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            mainWindow.Browser.Navigate("http://zetacentauri.com");
+            mainWindow.Browser.Navigate("https://lambdacentauri.com/software_threeteeth.htm");
         }
 
         private void btnClose_Click(object sender, EventArgs e)

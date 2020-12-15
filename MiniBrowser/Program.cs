@@ -20,7 +20,7 @@ namespace ThreeTeeth
             }
             else
             {
-                Application.Run(new MainWindow("http://threeteeth.com/search/?version=1.3"));
+                Application.Run(new MainWindow("https://lambdacentauri.com/search/?version=1.31"));
             }
         }
     }

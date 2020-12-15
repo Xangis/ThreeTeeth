@@ -34,11 +34,11 @@ namespace ThreeTeeth
             //cbSearchProviders.SelectedIndex = 0;
             webBrowser1.ScriptErrorsSuppressed = true;
             LoadBookmarks();
-            if (bookmarks.Count < 1)
-            {
-                String amazonLink = "http://www.amazon.com/?_encoding=UTF8&tag=zetacentauri-20&linkCode=ur2&camp=1789&creative=9325";
-                InsertBookmark("Amazon.com", amazonLink);
-            }
+            //if (bookmarks.Count < 1)
+            //{
+            //    String amazonLink = "http://www.amazon.com/?_encoding=UTF8&tag=zetacentauri-20&linkCode=ur2&camp=1789&creative=9325";
+            //    InsertBookmark("Amazon.com", amazonLink);
+            //}
             cbBookmarks.SelectedIndexChanged += new EventHandler(cbBookmarks_SelectedIndexChanged);
             //MessageBox.Show("Browser version: " + webBrowser1.Version.ToString());
             webBrowser1.Navigate(url);
@@ -226,7 +226,7 @@ namespace ThreeTeeth
 
         private void btnHome_Click(object sender, EventArgs e)
         {
-            webBrowser1.Navigate("http://threeteeth.com/search/?version=1.3");
+            webBrowser1.Navigate("https://lambdacentauri.com/search/?version=1.31");
         }
 
         /// <summary>

@@ -1,0 +1,21 @@
+﻿Release 1.31 Changes
+--------------------
+Home link changed to lambdacentauri.com and all branding changed to Lambda Centauri.
+Removed Amazon affiliate link.
+
+Release 1.3 Changes
+-------------------
+Added bookmark support.
+Added Amazon bookmark by default.
+Fixed resizing of window so that address bar and go button move properly.
+
+Features Wanted in Future Releases
+----------------------------------
+Add keyboard shortcuts.
+Save HTML file to disk.
+Search eBay.
+Search Bing.
+Bookmark Creation and recall.
+Install in user home directory if no admin rights.
+Drag and drop a page/URL into the browser.
+Add up and down arrows to scroll browser window, home, end, Alt-D, other keyboard nav shortcuts.
