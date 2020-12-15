@@ -61,6 +61,8 @@ To navigate to a bookmark, click the drop down list next to the bookmark button 
 ### Changes in Version 1.31 (2015-09-19):
 
 - Changed start page to reflect ThreeTeeth moving to zetacentauri.com.
+- Your Browser Is: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729; Zoom 3.6.0)
+- Your Language Setting Is: en-US
 
 *NOTE: It appears that the changes for 1.31 did not make it into this repository. They may be lost, or I may have them somewhere.*
 
