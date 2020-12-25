@@ -2,6 +2,8 @@
 
 ### Version 1.32
 
+Your Browser Is: ThreeTeeth/1.32 / Mozilla/4.0 (compatible; MSIE7.0; Windows; Trident/7.0)
+
 ### Version 1.315 (not released)
 
 Your Browser Is: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729; Zoom 3.6.0)
@@ -39,10 +41,11 @@ Install in user home directory if no admin rights.
 Drag and drop a page/URL into the browser.
 Add up and down arrows to scroll browser window, home, end, Alt-D, other keyboard nav shortcuts.
 
-### Changes in Version 1.32 (2020-12-??):
+### Changes in Version 1.32 (2020-12-25):
 
 - Home link changed to wbsrch.com and all branding changed to Lambda Centauri.
 - Removed Amazon affiliate link.
+- Changed user agent string to say ThreeTeeth/1.32.
 
 ### Changes in Version 1.31 (2015-09-19):
 
