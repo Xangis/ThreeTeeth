@@ -226,7 +226,7 @@ namespace ThreeTeeth
 
         private void btnHome_Click(object sender, EventArgs e)
         {
-            webBrowser1.Navigate("https://lambdacentauri.com/search/?version=1.31");
+            webBrowser1.Navigate("https:/wbsrch.com");
         }
 
         /// <summary>

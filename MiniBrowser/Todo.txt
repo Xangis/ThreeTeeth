@@ -1,6 +1,6 @@
 ﻿Release 1.31 Changes
 --------------------
-Home link changed to lambdacentauri.com and all branding changed to Lambda Centauri.
+Home link changed to wbsrch.com and all branding changed to Lambda Centauri.
 Removed Amazon affiliate link.
 
 Release 1.3 Changes

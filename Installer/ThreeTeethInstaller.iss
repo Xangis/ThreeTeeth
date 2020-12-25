@@ -2,10 +2,11 @@
 ; SEE THE DOCUMENTATION FOR DETAILS ON CREATING INNO SETUP SCRIPT FILES!
 
 #define MyAppName "ThreeTeeth"
-#define MyAppVersion "1.31"
-#define MyAppPublisher "Zeta Centauri"
-#define MyAppURL "http://threeteeth.com"
+#define MyAppVersion "1.32"
+#define MyAppPublisher "Lambda Centauri"
+#define MyAppURL "https://lambdacentauri.com/software_threeteeth.htm"
 #define MyAppExeName "ThreeTeeth.exe"
+#define CodeDir "E:\code\ThreeTeeth"
 
 [Setup]
 ; NOTE: The value of AppId uniquely identifies this application.
@@ -19,15 +20,15 @@ AppPublisher={#MyAppPublisher}
 AppPublisherURL={#MyAppURL}
 AppSupportURL={#MyAppURL}
 AppUpdatesURL={#MyAppURL}
-DefaultDirName={pf}\Zeta Centauri\ThreeTeeth
+DefaultDirName={pf}\{#MyAppPublisher}\{#MyAppName}
 DisableDirPage=yes
-DefaultGroupName=ThreeTeeth Browser
+DefaultGroupName={#MyAppPublisher}
 DisableProgramGroupPage=yes
-LicenseFile=E:\code\ThreeTeeth\MiniBrowser\bin\Release\License.txt
-OutputDir=E:\code\ThreeTeeth\MiniBrowser\bin\Release
-OutputBaseFilename=ThreeTeeth1.31Setup
-SetupIconFile=E:\code\ThreeTeeth\MiniBrowser\trident32.ico
-UninstallDisplayIcon={app}\ThreeTeeth.exe,0
+LicenseFile={#CodeDir}\LICENSE.TXT
+OutputDir={#CodeDir}\installer
+OutputBaseFilename={#MyAppName}{#MyAppVersion}Setup
+SetupIconFile={#CodeDir}\MiniBrowser\trident32.ico
+UninstallDisplayIcon={app}\{#MyAppExeName},0
 Compression=lzma
 SolidCompression=yes
 
@@ -39,7 +40,7 @@ Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{
 Name: "quicklaunchicon"; Description: "{cm:CreateQuickLaunchIcon}"; GroupDescription: "{cm:AdditionalIcons}"; Flags: unchecked; OnlyBelowVersion: 0,6.1
 
 [Files]
-Source: "E:\code\ThreeTeeth\MiniBrowser\bin\Release\ThreeTeeth.exe"; DestDir: "{app}"; Flags: ignoreversion
+Source: "{#CodeDir}\MiniBrowser\bin\Release\{#MyAppExeName}"; DestDir: "{app}"; Flags: ignoreversion
 ; NOTE: Don't use "Flags: ignoreversion" on any shared system files
 
 [Icons]
@@ -54,12 +55,12 @@ Filename: "{app}\{#MyAppExeName}"; Description: "{cm:LaunchProgram,{#StringChang
 ; File association to open .htm files.
 Root: HKCR; Subkey: ".htm"; ValueType: string; ValueName: ""; ValueData: "HTMFile"; Flags: uninsdeletevalue
 Root: HKCR; Subkey: "HTMFile"; ValueType: string; ValueName: ""; ValueData: "HTML File"; Flags: uninsdeletekey
-Root: HKCR; Subkey: "HTMFile\DefaultIcon"; ValueType: string; ValueName: ""; ValueData: "{app}\ThreeTeeth.exe,0"
-Root: HKCR; Subkey: "HTMFile\shell\open\command"; ValueType: string; ValueName: ""; ValueData: """{app}\ThreeTeeth.exe"" ""%1""" 
+Root: HKCR; Subkey: "HTMFile\DefaultIcon"; ValueType: string; ValueName: ""; ValueData: "{app}\{#MyAppExeName},0"
+Root: HKCR; Subkey: "HTMFile\shell\open\command"; ValueType: string; ValueName: ""; ValueData: """{app}\{#MyAppExeName}"" ""%1""" 
 ; File association to open .html files.
 Root: HKCR; Subkey: ".html"; ValueType: string; ValueName: ""; ValueData: "HTMLFile"; Flags: uninsdeletevalue
 Root: HKCR; Subkey: "HTMLFile"; ValueType: string; ValueName: ""; ValueData: "HTML File"; Flags: uninsdeletekey
-Root: HKCR; Subkey: "HTMLFile\DefaultIcon"; ValueType: string; ValueName: ""; ValueData: "{app}\ThreeTeeth.exe,0"
-Root: HKCR; Subkey: "HTMLFile\shell\open\command"; ValueType: string; ValueName: ""; ValueData: """{app}\ThreeTeeth.exe"" ""%1""" 
+Root: HKCR; Subkey: "HTMLFile\DefaultIcon"; ValueType: string; ValueName: ""; ValueData: "{app}\{#MyAppExeName},0"
+Root: HKCR; Subkey: "HTMLFile\shell\open\command"; ValueType: string; ValueName: ""; ValueData: """{app}\{#MyAppExeName}"" ""%1""" 
 
 
