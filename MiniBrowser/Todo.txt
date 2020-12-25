@@ -1,16 +1,35 @@
-﻿Release 1.31 Changes
---------------------
-Home link changed to wbsrch.com and all branding changed to Lambda Centauri.
-Removed Amazon affiliate link.
+﻿# Browser Strings
 
-Release 1.3 Changes
--------------------
-Added bookmark support.
-Added Amazon bookmark by default.
-Fixed resizing of window so that address bar and go button move properly.
+### Version 1.32
 
-Features Wanted in Future Releases
-----------------------------------
+### Version 1.315 (not released)
+
+Your Browser Is: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729; Zoom 3.6.0)
+
+### Version 1.31
+
+Your Browser Is: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729; Zoom 3.6.0)
+
+### Version 1.3
+
+Your Browser Is: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729; Zoom 3.6.0)
+
+### Version 1.2
+
+Your Browser Is: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729; Zoom 3.6.0)
+
+### Version 1.1
+
+Your Browser Is: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729; Zoom 3.6.0)
+
+### Version 1.0
+
+Your Browser Is: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729; Zoom 3.6.0)
+
+# Changelog
+
+## Features Wanted in Future Releases
+
 Add keyboard shortcuts.
 Save HTML file to disk.
 Search eBay.
@@ -19,3 +38,47 @@ Bookmark Creation and recall.
 Install in user home directory if no admin rights.
 Drag and drop a page/URL into the browser.
 Add up and down arrows to scroll browser window, home, end, Alt-D, other keyboard nav shortcuts.
+
+### Changes in Version 1.32 (2020-12-??):
+
+- Home link changed to wbsrch.com and all branding changed to Lambda Centauri.
+- Removed Amazon affiliate link.
+
+### Changes in Version 1.31 (2015-09-19):
+
+- Changed start page to reflect ThreeTeeth moving to zetacentauri.com.
+- Your Browser Is: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729; Zoom 3.6.0)
+- Your Language Setting Is: en-US
+
+*NOTE: It appears that the changes for 1.31 did not make it into this repository. They may be lost, or I may have them somewhere.*
+
+### Changes in Version 1.3 (2013-01-09):
+
+- Added support for adding and navigating to bookmarks.
+- Some user interface improvements related to window resizing (Fixed resizing of window so that address bar and go button move properly.).
+- Added Amazon bookmark by default.
+
+### Changes in Version 1.2 (6/27/2012):
+
+- Added the ability to open an HTML file using the command line.
+- Some minor cosmetic improvements.
+- More improvements to code formatting in the source view.
+- Improved the order in which controls are selected via the tab key.
+- New icon.
+
+### Changes in Version 1.1 (6/18/2011):
+
+- Added a button to open a file from disk.
+- Improved code formatting in the source view.
+
+### Changes in Version 1.0 (5/17/2011):
+
+*Note: Before version 1.0, ThreeTeeth was known as the Zeta MiniBrowser.*
+
+- The current web page title now shows up in the title bar.
+- Script errors no longer show annoying pop-up messages.
+- Buttons have been changed from big clunky text to icons.
+- The URL bar now updates with navigation.
+- The browser now loads a search page to start with.
+- There is now a home button that will take you back to the search page.
+

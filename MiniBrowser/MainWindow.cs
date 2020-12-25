@@ -41,7 +41,7 @@ namespace ThreeTeeth
             //}
             cbBookmarks.SelectedIndexChanged += new EventHandler(cbBookmarks_SelectedIndexChanged);
             //MessageBox.Show("Browser version: " + webBrowser1.Version.ToString());
-            webBrowser1.Navigate(url);
+            webBrowser1.Navigate(url, null, null, "User-Agent: ThreeTeeth/1.32 / Mozilla/4.0 (compatible; MSIE7.0; Windows; Trident/7.0)");
         }
 
         void cbBookmarks_SelectedIndexChanged(object sender, EventArgs e)
@@ -102,14 +102,14 @@ namespace ThreeTeeth
 
         private void btnGo_Click( object sender, EventArgs e )
         {
-            webBrowser1.Navigate( txtUrlBar.Text );
+            webBrowser1.Navigate( txtUrlBar.Text, null, null, "User-Agent: ThreeTeeth/1.32 / Mozilla/4.0 (compatible; MSIE7.0; Windows; Trident/7.0)" );
         }
 
         private void txtUrlBar_KeyPress( object sender, KeyPressEventArgs e )
         {
             if (e.KeyChar == (char) 13)
             {
-                webBrowser1.Navigate(txtUrlBar.Text);
+                webBrowser1.Navigate(txtUrlBar.Text, null, null, "User-Agent: ThreeTeeth/1.32 / Mozilla/4.0 (compatible; MSIE7.0; Windows; Trident/7.0)");
             }
         }
 
@@ -200,33 +200,9 @@ namespace ThreeTeeth
             aboutBox.ShowDialog();
         }
 
-        //private void btnSearch_Click(object sender, EventArgs e)
-        //{
-        //    if (cbSearchProviders.Text == "Amazon")
-        //    {
-        //        webBrowser1.Navigate("http://www.amazon.com/s?ie=UTF8&tag=zetacentauri-20&index=blended&link_code=qs&field-keywords=" + txtSearchText.Text + "&sourceid=ThreeTeeth-search");
-        //    }
-        //    else if (cbSearchProviders.Text == "Google")
-        //    {
-        //        webBrowser1.Navigate("http://www.google.com");
-        //    }
-        //    else if (cbSearchProviders.Text == "eBay")
-        //    {
-        //        webBrowser1.Navigate("http://rover.ebay.com/rover/1/711-53200-19255-0/1?icep_ff3=9&pub=5574866124&toolid=10001&campid=5336833782&customid=&icep_uq=" + txtSearchText.Text + "&icep_sellerId=&icep_ex_kw=&icep_sortBy=12&icep_catId=&icep_minPrice=&icep_maxPrice=&ipn=psmain&icep_vectorid=229466&kwid=902099&mtid=824&kw=lg");
-        //    }
-        //    //else if (cbSearchProviders.Text == "Xpensiv")
-        //    //{
-        //    //    webBrowser1.Navigate("http://www.xpensiv.com");
-        //    //}
-        //    //else if (cbSearchProviders.Text == "CrawlCode")
-        //    //{
-        //    //    webBrowser1.Navigate("http://www.crawlcode.com");
-        //    //}
-        //}
-
         private void btnHome_Click(object sender, EventArgs e)
         {
-            webBrowser1.Navigate("https:/wbsrch.com");
+            webBrowser1.Navigate("https:/wbsrch.com", null, null, "User-Agent: ThreeTeeth/1.32 / Mozilla/4.0 (compatible; MSIE7.0; Windows; Trident/7.0)");
         }
 
         /// <summary>
