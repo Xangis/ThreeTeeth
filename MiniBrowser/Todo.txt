@@ -48,6 +48,8 @@ Make DPI aware (if not already done, search Evernote for how).
 
 - Application is now DPI aware.
 
+NOT RELEASED YET. Ready to build installer. May or may not want to add more features first.
+
 ### Changes in Version 1.32 (2020-12-25):
 
 - Home link changed to wbsrch.com and all branding changed to Lambda Centauri.
