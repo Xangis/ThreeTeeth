@@ -41,7 +41,7 @@ namespace ThreeTeeth
             //}
             cbBookmarks.SelectedIndexChanged += new EventHandler(cbBookmarks_SelectedIndexChanged);
             //MessageBox.Show("Browser version: " + webBrowser1.Version.ToString());
-            webBrowser1.Navigate(url, null, null, "User-Agent: ThreeTeeth/1.32 / Mozilla/4.0 (compatible; MSIE7.0; Windows; Trident/7.0)");
+            webBrowser1.Navigate(url, null, null, "User-Agent: ThreeTeeth/1.4 / Mozilla/4.0 (compatible; MSIE7.0; Windows; Trident/7.0)");
         }
 
         void cbBookmarks_SelectedIndexChanged(object sender, EventArgs e)
@@ -102,14 +102,14 @@ namespace ThreeTeeth
 
         private void btnGo_Click( object sender, EventArgs e )
         {
-            webBrowser1.Navigate( txtUrlBar.Text, null, null, "User-Agent: ThreeTeeth/1.32 / Mozilla/4.0 (compatible; MSIE7.0; Windows; Trident/7.0)" );
+            webBrowser1.Navigate( txtUrlBar.Text, null, null, "User-Agent: ThreeTeeth/1.4 / Mozilla/4.0 (compatible; MSIE7.0; Windows; Trident/7.0)" );
         }
 
         private void txtUrlBar_KeyPress( object sender, KeyPressEventArgs e )
         {
             if (e.KeyChar == (char) 13)
             {
-                webBrowser1.Navigate(txtUrlBar.Text, null, null, "User-Agent: ThreeTeeth/1.32 / Mozilla/4.0 (compatible; MSIE7.0; Windows; Trident/7.0)");
+                webBrowser1.Navigate(txtUrlBar.Text, null, null, "User-Agent: ThreeTeeth/1.4 / Mozilla/4.0 (compatible; MSIE7.0; Windows; Trident/7.0)");
             }
         }
 
@@ -202,7 +202,7 @@ namespace ThreeTeeth
 
         private void btnHome_Click(object sender, EventArgs e)
         {
-            webBrowser1.Navigate("https:/wbsrch.com", null, null, "User-Agent: ThreeTeeth/1.32 / Mozilla/4.0 (compatible; MSIE7.0; Windows; Trident/7.0)");
+            webBrowser1.Navigate("https:/wbsrch.com", null, null, "User-Agent: ThreeTeeth/1.4 / Mozilla/4.0 (compatible; MSIE7.0; Windows; Trident/7.0)");
         }
 
         /// <summary>
