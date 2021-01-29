@@ -54,7 +54,7 @@
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(200, 13);
             this.label3.TabIndex = 2;
-            this.label3.Text = "Copyright © 2008-2020 Lambda Centauri";
+            this.label3.Text = "Copyright © 2008-2021 Lambda Centauri";
             // 
             // label6
             // 

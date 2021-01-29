@@ -47,6 +47,7 @@ namespace ThreeTeeth
             this.btnStop = new System.Windows.Forms.Button();
             this.btnForward = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
+            this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.form_KeyDown);
             this.SuspendLayout();
             // 
             // webBrowser1

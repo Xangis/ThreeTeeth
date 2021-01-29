@@ -2,7 +2,7 @@
 ; SEE THE DOCUMENTATION FOR DETAILS ON CREATING INNO SETUP SCRIPT FILES!
 
 #define MyAppName "ThreeTeeth"
-#define MyAppVersion "1.32"
+#define MyAppVersion "1.4"
 #define MyAppPublisher "Lambda Centauri"
 #define MyAppURL "https://lambdacentauri.com/software_threeteeth.htm"
 #define MyAppExeName "ThreeTeeth.exe"

@@ -109,7 +109,12 @@ namespace ThreeTeeth
         {
             if (e.KeyChar == (char) 13)
             {
-                webBrowser1.Navigate(txtUrlBar.Text, null, null, "User-Agent: ThreeTeeth/1.4 / Mozilla/4.0 (compatible; MSIE7.0; Windows; Trident/7.0)");
+                String target = txtUrlBar.Text;
+                if( !target.StartsWith("http"))
+                {
+                    target = "https://" + target;
+                }
+                webBrowser1.Navigate(target, null, null, "User-Agent: ThreeTeeth/1.4 / Mozilla/4.0 (compatible; MSIE7.0; Windows; Trident/7.0)");
             }
         }
 
@@ -202,7 +207,7 @@ namespace ThreeTeeth
 
         private void btnHome_Click(object sender, EventArgs e)
         {
-            webBrowser1.Navigate("https:/wbsrch.com", null, null, "User-Agent: ThreeTeeth/1.4 / Mozilla/4.0 (compatible; MSIE7.0; Windows; Trident/7.0)");
+            webBrowser1.Navigate("https://wbsrch.com", null, null, "User-Agent: ThreeTeeth/1.4 / Mozilla/4.0 (compatible; MSIE7.0; Windows; Trident/7.0)");
         }
 
         /// <summary>
@@ -228,13 +233,20 @@ namespace ThreeTeeth
                 InsertBookmark(dlg.GetURLTitle(), dlg.GetURL());
             }            
         }
-
         protected override void OnSizeChanged(EventArgs e)
         {
             base.OnSizeChanged(e);
             panel1.Width = this.Width - 25;
             txtUrlBar.Width = this.Width - 72;
             btnGo.Location = new Point(this.Width - 62, btnGo.Location.Y);
+        }
+        
+        private void form_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.Alt && e.KeyCode == Keys.D)
+            {
+                txtUrlBar.Focus();
+            }
         }
     }
 }
